@@ -53,4 +53,4 @@ console.log(isPalindrome("mom")); // true
 console.log(isPalindrome("abbA")); // false
 console.log(isPalindrome2("torrent")); // false
 console.log(isPalindrome2("deleted")); // false
-console.log(isPalindrome2("dollod")); // false
+console.log(isPalindrome2("dollod")); // true
