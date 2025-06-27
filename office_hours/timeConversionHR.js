@@ -1,6 +1,5 @@
 // Time Conversion challenge from HackerRank: https://www.hackerrank.com/challenges/time-conversion/problem?isFullScreen=true
 function timeConversion(s) {
-    // Write your code here
     let militaryTimeStr = "";
     if (s.endsWith("AM")) { // AM
         if (s.startsWith("12")) {
