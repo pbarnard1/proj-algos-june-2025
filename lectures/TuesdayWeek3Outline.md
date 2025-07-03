@@ -20,6 +20,7 @@
     - What stack(s) did you use?
     - What were some of the biggest challenges building it out?  Biggest triumphs?
     - What do you plan to do with your project in the future?
+    - Demo all the main features (MVP - minimum viable product); you don't need to show your code unless you wish to do so.
     - NOTE: You might feel a little envious of others or even want to go crazy mentally, especially if someone else built a feature that you wish you did.  Remember that the most important thing is your individual growth!  So do NOT compare yourself to others!
 - Recursion:
     - Overview of concepts: call stack, stack overflow, base case, recursive step (forward progress)
