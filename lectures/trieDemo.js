@@ -31,7 +31,7 @@ class Trie {
     }
 
     search(newWord, index = 0, currentSpot = this.root) {
-        if (currentSpot === this.root && this.root === null) {
+        if (currentSpot === this.root && this.root === null) { // Tree is empty, so we can't find any words
             return false;
         }
         // If we are at the end of the word - we've found it!
@@ -56,6 +56,7 @@ console.log(demoTrie.search("cat"));
 console.log(demoTrie.search("can"));
 console.log(demoTrie.search("canopy"));
 console.log(demoTrie.search("ca"));
+console.log(demoTrie.search("car"));
 console.log(demoTrie.search("co"));
 // console.log(demoTrie);
 // console.log(demoTrie.root);
